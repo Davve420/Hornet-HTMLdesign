@@ -1,0 +1,115 @@
+@import url('https://fonts.cdnfonts.com/css/trajan-pro');
+@import url('https://fonts.cdnfonts.com/css/perpetua-titling-mt');
+
+body{
+    background-image:url('./bilder/background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Trajan Pro', sans-serif;
+
+}
+
+header{
+    font-family: 'Perpetua Titling MT', sans-serif;
+    background-color: rgba(153, 152, 152, 0.301);
+    color: #fff;
+    position: fixed;
+    z-index: 10; /* högre än main */
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom:2px solid #000000;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover{
+    color: #000000;
+}
+
+main {
+    text-align: center;
+    color: #fff;
+    margin-top: 200px;
+    z-index: 2;
+}
+
+footer{
+    color:#fff;
+}
+
+.navlinks{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 0 20px 0;
+    justify-content: space-around;
+
+}
+
+.navlinks a{
+text-decoration: none;
+font-size: larger;
+color: #fff;
+padding: 20px; 
+border-radius: 10px;
+}
+
+h2{
+  color: white; /* Text color */
+  -webkit-text-stroke: 0.5px black; /* Outline thickness and color */
+  -webkit-text-fill-color: white; /* Fill color inside the text */
+}
+
+h3{
+  color: white; /* Text color */
+  -webkit-text-stroke: 0.5px black; /* Outline thickness and color */
+  -webkit-text-fill-color: white; /* Fill color inside the text */
+}
+
+h4{  color: white; /* Text color */
+  -webkit-text-stroke: 0.5px black; /* Outline thickness and color */
+  -webkit-text-fill-color: white; /* Fill color inside the text */
+}
+
+.hornet{
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 20px;
+}
+
+.larkin{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgba(153, 152, 152, 0.301);
+    border: #000000 solid 3px;
+    border-radius: 20px;
+    margin: 10px 450px 10px 450px;
+    text-align: center;
+}
+
+.card button{
+    margin: 0 100px 0 100px;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+#container-song{
+    text-align: center;
+    margin-left: -40px;
+}
+
+fieldset{
+    background-color: rgba(153, 152, 152, 0.301);
+    border: #fff solid 2px;
+}
