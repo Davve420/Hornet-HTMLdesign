@@ -9,28 +9,54 @@
     <header>
         <h1>Hornet's Silk & Songs</h1>
     <nav>
-        <a href="index.html">Start</a>
-        <a href="songs.html">Meny</a>
-        <a href="silks.html">Kontakt</a>
-        <a href="kamp.html">Om oss</a>
+        <a href="index.html"  style="border: 2px solid; border-color: purple; padding: 10px; border-radius: 10px;">Home</a>
+        <a href="songs.html"  style="border: 2px solid; border-color: purple; padding: 10px; border-radius: 10px;">Songs</a>
+        <a href="silks.html"  style="border: 2px solid; border-color: purple; padding: 10px; border-radius: 10px;">Silks</a>
+        <a href="kamp.html"  style="border: 2px solid; border-color: purple; padding: 10px; border-radius: 10px;">Battle</a>
 
     </nav>
     </header>
 
     <main>
-        <article>
-            <p>Mästare av silke och song, men också väktare</p>
-        </article>
-        <section>
-            <h3></h3>
-            <p></p>
-        </section>
-        <figure>
-            <img src="Hornet.JPEG">
-            <figcaption>
-                liten kommentar
-            </figcaption>
-        </figure>
+    <h2>Challenge Form</h2>
+    <p>Do you want to challenge Hornet in battle? Fill out the form below to submit your skills.</p>
+
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Your Information</legend>
+
+        <label for="namn">Name:</label><br>
+        <input type="text" id="namn" name="namn" required><br><br>
+
+        <label for="epost">Email:</label><br>
+        <input type="email" id="epost" name="epost" required><br><br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Skills</legend>
+
+        <label for="skill">Describe your skills:</label><br>
+        <textarea id="skill" name="skill" rows="4" cols="40"></textarea><br><br>
+
+        <p>Select weapon type:</p>
+        <input type="radio" id="nail" name="weapon" value="Nail">
+        <label for="nail">Nail</label><br>
+        <input type="radio" id="silk" name="weapon" value="Silk">
+        <label for="silk">Silk</label><br>
+        <input type="radio" id="song" name="weapon" value="Song">
+        <label for="song">Song</label><br><br>
+
+        <input type="checkbox" id="redo" name="redo">
+        <label for="redo">I am ready to face Hornet</label><br><br>
+        </fieldset>
+
+        <button type="submit">Send Challenge</button>
+    </form>
+
+    <aside>
+        <h3>Tips from Hornet</h3>
+        <p>Train your speed and keep your eyes open – Hornet is always one step ahead.</p>
+    </aside>
     </main>
 
     <footer>
