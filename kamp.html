@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="script.js">
     <title>Hornet's Silk & Songs</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
     <h2>Challenge Form</h2>
     <p>Do you want to challenge Hornet in battle? Fill out the form below to submit your skills.</p>
 
-    <form action="#" method="post">
+    <form onsubmit="submitfunction()">
         <fieldset>
         <legend>Your Information</legend>
 
@@ -49,9 +50,8 @@
 
         <input type="checkbox" id="redo" name="redo">
         <label for="redo">I am ready to face Hornet</label><br><br>
-        </fieldset>
-
         <button type="submit">Send Challenge</button>
+        </fieldset>
     </form>
 
     <aside>
